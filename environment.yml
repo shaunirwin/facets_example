@@ -1,0 +1,9 @@
+name: facets_env
+dependencies:
+- python=2.7
+- numpy
+- pandas
+- jupyter
+- pip
+- pip:
+  - git+https://github.com/zalandoresearch/fashion-mnist.git
