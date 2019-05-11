@@ -4,6 +4,5 @@ dependencies:
 - numpy
 - pandas
 - jupyter
-- pip
-- pip:
-  - git+https://github.com/zalandoresearch/fashion-mnist.git
+- scikit-image
+- matplotlib

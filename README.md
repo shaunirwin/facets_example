@@ -4,6 +4,9 @@
 
 The following will provide the "basic" installation (i.e. if you want to just view tabular data in Facets Dive, without images):
 
+Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+Use Google Chrome browser only!
+
 ~~~ bash
 git clone https://github.com/shaunirwin/facets_example.git
 cd facets_example
@@ -23,4 +26,7 @@ Note that it is also perfectly possible to manually create the *sprite atlas* us
 
 **Images are not being displayed**
 It is possible that you are trying to read in the sprite atlas from the wrong location. The browser requires that the sprite atlas image be located in the directory from where your Jupyter Notebook is being run from or a subdirectory of that. Otherwise you can add extra HTML tags to satisfy the CORS requirements. See [here](https://github.com/PAIR-code/facets/blob/master/facets_dive/README.md#providing-sprites-for-dive-to-render) for details.
+
+**Nothing is being displayed in the Jupyter Notebook when the cell is run**
+Ensure that you are using Google Chrome. Firefox and other browsers do not work!
 
